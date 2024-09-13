@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start template</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="table_wrap">
+          <header class="header">
+            <div class="header__in">
+              <div class="header_dropdown">
+                <label class="header_dropdown__label" for="entries">Show</label>
+                <select
+                  class="header_dropdown__select"
+                  id="entries"
+                  name="entries"
+                >
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <label class="header_dropdown__label">entries</label>
+              </div>
+              <form class="header_search_form">
+                <div class="header_search">
+                  <input
+                    class="header_search__input"
+                    type="search"
+                    placeholder="Search..."
+                  />
+                </div>
+              </form>
+              <div class="header_btn_w">
+                <a href="#" class="header_btn"><span></span> Add Customer </a>
+              </div>
+            </div>
+          </header>
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="table__cell table__cell--align">Tracking ID</th>
+                <th class="table__cell table__cell--select">Product</th>
+                <th class="table__cell table__cell--select">Customer</th>
+                <th class="table__cell table__cell--select">Date</th>
+                <th class="table__cell table__cell--select">Amount</th>
+                <th class="table__cell table__cell--align">Payment Mode</th>
+                <th class="table__cell table__cell--select">Status</th>
+                <th class="table__cell table__cell--align">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table__id">#20462</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/Image_1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Hat</span>  
+                  </div>
+                </td>
+                <td>Matt Dickerson</td>
+                <td>13/05/2022</td>
+                <td>$4.95	</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--delivered">
+                    Delivered
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#18933</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Laptop</span>
+                  </div>
+                </td>
+                <td>Wiktoria</td>
+                <td>22/05/2022</td>
+                <td>$8.95</td>
+                <td>Cash on Delivery</td>
+                <td>
+                  <div class="table__status tabble__status--delivered">
+                    Delivered
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#45169</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_3.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Phone</span>
+                  </div>
+                </td>
+                <td>Trixie Byrd</td>
+                <td>15/06/2022</td>
+                <td>$1,149.95	</td>
+                <td>Cash on Delivery</td>
+                <td>
+                  <div class="table__status tabble__status--process">
+                    Process
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#34304</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_4.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Bag</span>
+                  </div>
+                </td>
+                <td>Brad Mason</td>
+                <td>06/09/2022</td>
+                <td>$899.95	</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--process">
+                    Process
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#17188</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_5.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Headset</span>
+                  </div>
+                </td>
+                <td>Sanderson</td>
+                <td>25/09/2022</td>
+                <td>$22.95	</td>
+                <td>Cash on Delivery</td>
+                <td>
+                  <div class="table__status tabble__status--canceled">
+                    Canceled
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#73003</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_6.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Mouse</span>
+                  </div>
+                </td>
+                <td>Jun Redfern</td>
+                <td>04/10/2022</td>
+                <td>$54.95	</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--delivered">
+                    Delivered
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#58825</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_7.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Clock</span>
+                  </div>
+                </td>
+                <td>Miriam Kidd</td>
+                <td>17/10/2022</td>
+                <td>$174.95</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--delivered">
+                    Delivered
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#44122</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_8.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">T-shirt</span>
+                  </div>
+                </td>
+                <td>Dominic</td>
+                <td>24/10/2022</td>
+                <td>$249.95</td>
+                <td>Cash on Delivery</td>
+                <td>
+                  <div class="table__status tabble__status--delivered">
+                    Delivered
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#89094</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_9.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Monitor</span>
+                  </div>
+                </td>
+                <td>Shanice</td>
+                <td>01/11/2022</td>
+                <td>$899.95	</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--canceled">
+                    Canceled
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__id">#85252</td>
+                <td>
+                  <div class="table__img_cell">
+                    <div class="table__img_w">
+                      <img
+                        class="table__img"
+                        src="./images/image_10.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="table__img_tx">Keyboard</span>
+                  </div>
+                </td>
+                <td>Poppy-Rose</td>
+                <td>22/11/2022</td>
+                <td>$6.948</td>
+                <td>Tranfer Bank</td>
+                <td>
+                  <div class="table__status tabble__status--process">
+                    Process
+                  </div>
+                </td>
+                <td>
+                  <div class="table__action_list">
+                    <button class="table__action table__action--edit"></button>
+                    <button
+                      class="table__action table__action--remove"
+                    ></button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <footer class="footer">
+            <div class="footer__in">
+              <nav class="pagination">
+                <a class="pagination__text"> Previous </a>
+                <a class="pagination__btn pagination__btn--active"> 1 </a>
+                <a class="pagination__btn"> 2 </a>
+                <a class="pagination__btn"> 3 </a>
+                <a class="pagination__text"> Next </a>
+              </nav>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
